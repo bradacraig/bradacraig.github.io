@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: whitesmoke;
 
@@ -9,6 +13,7 @@ body {
   font-size: 1rem;
 
   margin: 0;
+  padding-top: 3rem;
 }
 
 ul {
@@ -33,22 +38,33 @@ p {
 .nav-bar {
   height: 3rem;
   padding: 0.25rem;
+
+  width: 100%;
+
+  position: fixed;
+  top: 0;
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
+  background-color: #60a6a6;
+}
+
+.nav-link {
+  color: black;
+  font-weight: bold;
 }
 /* spacing */
 
 .padding-global {
   margin: auto auto;
-  /* padding: 5% 5% 0 5%; */
 }
 
 .container {
   margin: auto auto;
   width: 100%;
-  /* max-width: 80rem; */
 }
 
 /* hero section */
@@ -119,15 +135,24 @@ p {
 .blog {
   width: 100%;
   margin: 0 auto 2rem auto;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-@media only screen and (min-width: 500px) {
-  /* .container {
+@media only screen and (min-width: 800px) {
+  p {
+    margin-bottom: 0;
+  }
+
+  .padding-global {
+    padding: 5% 5% 0 5%;
+  }
+  .container {
+    max-width: 80vw;
     margin: auto;
-  } */
+  }
 
   .hero {
     flex-direction: row;
