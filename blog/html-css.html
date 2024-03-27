@@ -4,21 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="styles/positions.css" rel="stylesheet" type="text/css" />
+    <link href="/styles/positions.css" rel="stylesheet" type="text/css" />
     <title>CSS Positions</title>
   </head>
   <body>
     <nav class="nav">
       <div class="nav-links">
-        <a href="#">HOME</a>
-        <a href="#">LAST BLOG</a>
+        <a href="/index.html">HOME</a>
+        <a href="/blog/te-houtaewa-template.html">LAST BLOG</a>
         <a href="#">NEXT BLOG</a>
       </div>
     </nav>
     <div class="container">
+      <h1>CSS Positions</h1>
       <div class="positions-list">
         <div class="list-group">
-          <div class="list-header">Static</div>
+          <div class="list-header"><h2>Static</h2></div>
           <div class="list-content">
             <p>
               Elements with static positioning are displayed in the order they
@@ -36,7 +37,7 @@
           </div>
         </div>
         <div class="list-group">
-          <div class="list-header">Relative</div>
+          <div class="list-header"><h2>Relative</h2></div>
           <div class="list-content">
             <p>
               Elements with relative can be nudged around from their original
@@ -50,7 +51,7 @@
           </div>
         </div>
         <div class="list-group">
-          <div class="list-header">Absolute</div>
+          <div class="list-header"><h2>Absolute</h2></div>
           <div class="list-content">
             <p>
               Elements with absolute positioning are taken out of the normal
@@ -64,27 +65,41 @@
               document).
             </p>
             <h3>Here's an example of absolute positioning:</h3>
+            <div class="img-wrapper">
+              <img
+                class="screenshot-img"
+                src="/Assets/absolute-relative-css.png"
+                alt="screenshot of css rule for absolute and relative positioning"
+              />
+            </div>
           </div>
         </div>
         <div class="list-group">
-          <div class="list-header">Fixed</div>
+          <div class="list-header"><h2>Fixed</h2></div>
           <div class="list-content">
             <p>
               Elements with fixed positioning stay in one place on the screen
               even when you scroll.
             </p>
             <p>
-              A good example of this is the navigation bar at the top of this
+              A good example of this is the navigation bar at the bottom of this
               page.
             </p>
             <h3>
               Here's what the CSS looks like for the nav bar with a fixed
               position:
             </h3>
+            <div class="img-wrapper">
+              <img
+                class="screenshot-img"
+                src="/Assets/nav-fixed-css.png"
+                alt="screenshot of css rule for fixed navbar"
+              />
+            </div>
           </div>
         </div>
         <div class="list-group">
-          <div class="list-header">Sticky</div>
+          <div class="list-header"><h2>Sticky</h2></div>
           <div class="list-content">
             <p>
               Elements with a sticky position act like relative until you scroll
@@ -96,6 +111,17 @@
               That's what makes them follow their content and then collapse into
               the next heading.
             </p>
+            <h3>
+              Here's what the CSS looks like for the heading with a sticky
+              position:
+            </h3>
+            <div class="img-wrapper">
+              <img
+                class="screenshot-img"
+                src="/Assets/header-sticky-css.png"
+                alt="screenshot of css rule for sticky heading"
+              />
+            </div>
           </div>
         </div>
       </div>
