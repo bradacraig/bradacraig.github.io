@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles/positions.css" rel="stylesheet" type="text/css" />
+    <title>CSS Positions</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-links">
+        <a href="#">HOME</a>
+        <a href="#">LAST BLOG</a>
+        <a href="#">NEXT BLOG</a>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="positions-list">
+        <div class="list-group">
+          <div class="list-header">Static</div>
+          <div class="list-content">
+            <p>
+              Elements with static positioning are displayed in the order they
+              appear in the HTML document. This is the default position if no
+              other positon is declared.
+            </p>
+            <p>
+              They cannot be moved using top, bottom, left, or right properties.
+            </p>
+            <p>
+              In other words, elements will stay where they are in the webpage
+              flow. By flow we mean how they were originally written in the html
+              structure.
+            </p>
+          </div>
+        </div>
+        <div class="list-group">
+          <div class="list-header">Relative</div>
+          <div class="list-content">
+            <p>
+              Elements with relative can be nudged around from their original
+              spot.
+            </p>
+            <p>
+              This means that they can be moved from their default position
+              using top, bottom, left, or right properties. However, they still
+              occupy space in the normal flow of the document.
+            </p>
+          </div>
+        </div>
+        <div class="list-group">
+          <div class="list-header">Absolute</div>
+          <div class="list-content">
+            <p>
+              Elements with absolute positioning are taken out of the normal
+              flow of the document, and can be placed whereevr you want inside a
+              container.
+            </p>
+            <p>
+              They are positioned relative to their closest positioned ancestor
+              (like for example the div or container that the element is nested
+              inside) or the initial containing block (the enitre html
+              document).
+            </p>
+            <h3>Here's an example of absolute positioning:</h3>
+          </div>
+        </div>
+        <div class="list-group">
+          <div class="list-header">Fixed</div>
+          <div class="list-content">
+            <p>
+              Elements with fixed positioning stay in one place on the screen
+              even when you scroll.
+            </p>
+            <p>
+              A good example of this is the navigation bar at the top of this
+              page.
+            </p>
+            <h3>
+              Here's what the CSS looks like for the nav bar with a fixed
+              position:
+            </h3>
+          </div>
+        </div>
+        <div class="list-group">
+          <div class="list-header">Sticky</div>
+          <div class="list-content">
+            <p>
+              Elements with a sticky position act like relative until you scroll
+              past a certain point, then they stick in place.
+            </p>
+            <p>In some ways its like a combination of Fixed and Relative.</p>
+            <p>
+              The headings for each section on this page have a sticky position.
+              That's what makes them follow their content and then collapse into
+              the next heading.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
