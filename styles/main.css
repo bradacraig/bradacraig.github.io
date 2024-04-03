@@ -103,15 +103,15 @@ p {
 
   display: flex;
   flex-direction: column;
-  justify-content: flex-end; /* Align content to the bottom */
-  align-items: flex-end; /* Align items to the right */
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 /* about me section */
 
 .about-me {
   width: 100%;
-  margin: 0 auto;
+  margin: 0 auto 2rem auto;
   display: flex;
   flex-direction: column;
 }
@@ -127,14 +127,14 @@ p {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: left; /* Align content to the bottom */
-  align-items: flex-start; /* Align items to the left */
+  justify-content: left;
+  align-items: flex-start;
 }
 
 .about-me-content p {
-  word-wrap: break-word; /* Allow long words to break and wrap onto the next line */
-  overflow-wrap: break-word; /* Handle overflow by breaking words */
-  max-width: 100%; /* Limit the width of the text to prevent overflow */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
 }
 
 /* blog section */
@@ -195,6 +195,6 @@ p {
   .img-wrapper,
   .hero-content,
   .about-me-content {
-    width: 50%; /* Adjust width as needed for equal distribution */
+    width: 50%;
   }
 }
