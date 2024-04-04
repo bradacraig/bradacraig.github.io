@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/main.css" type="text/css" />
+    <title>Emotional Intelligence</title>
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="nav-bar">
+      <a class="nav-link" href="http://bradacraig.github.io">BRAD CRAIG</a>
+      <a
+        class="nav-link"
+        href="http://bradacraig.github.io/blog/te-houtaewa-template.html"
+        >BLOG 1</a
+      >
+      <a class="nav-link" href="http://bradacraig.github.io/blog/html-css.html"
+        >BLOG 2</a
+      >
+      <a
+        class="nav-link"
+        href="http://bradacraig.github.io/blog/identity-values.html"
+        >BLOG 3</a
+      >
+      <a
+        class="nav-link"
+        href="http://bradacraig.github.io/blog/learning-plan.html"
+        >BLOG 4</a
+      >
+    </nav>
+    <div class="container">
+      <h4>The Relationship between HTML, CSS and JavaScript</h4>
+      <p>
+        A good analogy for explaining the relationship between html, css and
+        javascript is that of a car.
+      </p>
+      <p>
+        Cars are complex machines and require all parts to be working
+        harmoniously in order for it to function correctly.
+      </p>
+      <p>
+        Let's start with HTML: Think of this as the chassis of the car, the raw
+        steel and aluminium forged, pressed and assembled together to create the
+        structure of the car. On it's own it sort of resembles a car but it's
+        rather unattractive in its unfinished form and also wont get you very
+        far without a few more working parts.
+      </p>
+      <p>
+        Next up, CSS: This is what makes the car look good. The CSS property
+        <code>background-color: red</code>
+        is like the main colour of the cars exterior. Anything from how logos
+        and text is displayed on the vehicle through to the overall size and
+        shape of the car and elements associated with it can be thought of in
+        the way that CSS styles a webpage.
+      </p>
+      <p>
+        Finally we have JavaScript: What happens when I turn the key in my car?
+        What happens when I press the accelerator or brake pedal? What about if
+        there's a fault and that pesky air-bag light comes on? The process of
+        instructions to make something happen on a car can be related to the way
+        JavaScript makes a webpage interactive.
+      </p>
+      <p>
+        To use a specific example lets look at starting a car. In basic terms,
+        you turn the key which sends an electrical signal to the starter motor
+        which in turn initiates the firing procedure for the engine. If we think
+        of the key as a button on a webpage, we use JavaScript to listen for the
+        click of the button and then execute a function (or series of functions)
+        the return of the function is what we hope to get back at the end, in
+        the case of the car, eventually we want the thing to start.
+      </p>
+      <h4>Control Flow and Loops</h4>
+      <p>
+        Imagine you're making breakfast, and you have a list of tasks to
+        complete: brewing coffee, toasting bread, and frying eggs. This list
+        represents a sequence of actions you need to take, much like the control
+        flow in JavaScript.
+      </p>
+      <p>
+        Control flow in JavaScript is like following a recipe step by step. You
+        start with one instruction, move on to the next, and so on until you've
+        completed all the tasks. If there are conditional steps, such as "if the
+        coffee machine is on, brew coffee; otherwise, turn on the coffee machine
+        first," that's similar to JavaScript's conditional statements, like
+        <code>if</code> and <code>else</code>.
+      </p>
+      <p>
+        Next up is loops. Picture yourself folding laundry, and you have a pile
+        of clothes to fold. You start with the first item, fold it neatly, then
+        move on to the next item until you've folded all the clothes in the
+        pile. This repetitive process of folding each item is like a loop in
+        JavaScript.
+      </p>
+      <p>
+        In JavaScript, a loop allows you to repeat a block of code multiple
+        times. Just like folding each piece of clothing in the laundry pile, you
+        can iterate over a set of data or perform a task repeatedly until a
+        certain condition is met. For example, if you have ten shirts to fold,
+        you can use a loop
+        <code>for(let i = 0; i &lt; shirts.length -1; i++)</code> to fold each
+        shirt until you've folded all ten.
+      </p>
+      <p>
+        So, in short, control flow is like following a recipe or a set of
+        instructions sequentially, while loops are like repetitive tasks such as
+        folding laundry or counting items in a list until you've completed a
+        specific action.
+      </p>
+      <h4>The DOM</h4>
+      <p>
+        If we stick with our cooking analogy... Imagine you have a recipe book
+        open in front of you. Each page of the book represents a different part
+        of a meal you're preparing. The recipe book is a lot like a webpage, and
+        each page is like an element on that webpage – it could be a paragraph,
+        an image, a heading, or a button.
+      </p>
+      <p>
+        The DOM in JavaScript can be compared to your ability to interact with
+        that recipe book. You can flip through the pages, find specific recipes,
+        and make changes as needed. The DOM also represents the structure of a
+        webpage as a tree-like hierarchy of elements, and JavaScript allows you
+        to access and manipulate these elements.
+      </p>
+      <p>
+        For example, let's say you're browsing a webpage and you want to change
+        the colour of a heading. Using JavaScript and the DOM, you could select
+        that button element and then change its colour property with
+        <code>document.getElementById('main-heading').style."blue"</code>
+        It's like flipping to a specific page in the recipe book and physically
+        highlighting the ingredients or name for a recipe.
+      </p>
+      <p>
+        In simpler terms, the DOM is like the structure of a webpage, and
+        JavaScript gives you the power to interact with and modify that
+        structure, much like how you can navigate and make changes in a recipe
+        book.
+      </p>
+      <h4>Arrays and Objects</h4>
+      <p>
+        Both arrays and objects are used to store and organise data, but they
+        have different structures and ways of accessing that data.
+      </p>
+      <p>
+        Arrays are lists of items stored in a specific order, where each item is
+        identified by its position or index. You can think of an array like a
+        numbered list, where you can access each item by its position in the
+        list. For example, if you have an array of fruits like
+        <code>["apple", "banana", "orange"]</code>, you can access "apple" with
+        <code>array[0]</code>, "banana" with <code>array[1]</code>, and so on.
+      </p>
+      <p>
+        Objects store data as key-value pairs. Each piece of data is associated
+        with a unique key, which acts like a label for that data. You can think
+        of an object like a dictionary, where you look up information by its
+        corresponding word (key). For example, if you have an object
+        representing a person like
+        <code>{ name: "Brad", age: 31, city: "Auckland"}</code>, you can access
+        the person's name with <code>object.name</code>, their age with
+        <code>object.age</code>, and their city with <code>object.city</code>.
+      </p>
+      <p>
+        Arrays are good for storing lists of similar items, like a list of
+        numbers or a shopping list, while objects are better for organising
+        related data with different types of information, like details of a
+        person or attributes of an object.
+      </p>
+      <h4>Functions</h4>
+      <p>
+        Functions are a useful piece of code for making something happen. They
+        take in information or parameters and return a result depending on how
+        and what is included inside the body of the function.
+      </p>
+      <p>
+        On their own they don't do much, and so rely on something happening
+        inside the body of the function (like a loop) to make them useful.
+      </p>
+      <p>
+        The best part about functions is that they are reusable, meaning that we
+        can write the instructions once and then "call" the function e.g
+        <code>getRandomInt()</code> throughout our JavaScript file whenever we
+        need that specific task done.
+      </p>
+    </div>
+  </body>
+</html>
