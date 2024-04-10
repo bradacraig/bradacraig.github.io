@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/styles/main.css" rel="stylesheet" type="text/css" />
+    <title>Problem Solving</title>
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="nav-bar">
+      <a class="nav-link" href="http://bradacraig.github.io">BRAD CRAIG</a>
+      <a
+        class="nav-link"
+        href="http://bradacraig.github.io/blog/te-houtaewa-template.html"
+        >BLOG 1</a
+      >
+      <a class="nav-link" href="http://bradacraig.github.io/blog/html-css.html"
+        >BLOG 2</a
+      >
+      <a
+        class="nav-link"
+        href="http://bradacraig.github.io/blog/identity-values.html"
+        >BLOG 3</a
+      >
+      <a
+        class="nav-link"
+        href="http://bradacraig.github.io/blog/learning-plan.html"
+        >BLOG 4</a
+      >
+    </nav>
+    <div class="padding-global">
+      <div class="container">
+        <h1>Problem Solving</h1>
+        <h2>Stuck on a problem...</h2>
+        <p>
+          I was stuck on the reverse loop challenge in the last sprint. I needed
+          to make the console print on separate lines: “Three!” “Two!” “One!”
+          “Blast Off!”. For some reason I couldn’t wrap my head around the
+          correct way to write the loop so that it would loop backwards through
+          the array and print each string to the console one by one.
+        </p>
+        <h4>Problem solving techniques</h4>
+        <p>
+          I started by trying what I thought might work just to see if I might
+          get lucky, if not hopefully I’d get an error or see what I was able to
+          get printing to the console.
+        </p>
+        <p>
+          Next I tried altering my code based on the results I got back from my
+          failed first attempt.
+        </p>
+        <p>
+          After this I reached out to the tech-questions channel on discord as I
+          was beginning to get confused by the error message and results I was
+          getting. I got some good advice back which helped me to modify my
+          loop. However, it still wasn’t working perfectly..
+        </p>
+        <p>
+          Finally I turned to chatgpt, explained what I was expecting to see and
+          shared my code snippet and asked it to point out specifically where in
+          the code I needed to look to change my input to receive the expected
+          output. I use this as a last resort as often if the prompt isn’t
+          worded correctly it will just give the answer away, diminishing my
+          learning opportunity. In the end this helped me slot the final piece
+          into the puzzle.
+        </p>
+        <h4>Reflecting on the problem</h4>
+        <p>
+          I felt frustrated and overwhelmed initially. I thought I’d wrapped my
+          head around the basic concept of loops, and while this was true to
+          some extent, I was easily tripped up by attempting to implement it in
+          reverse. On top of this, the console errors didn’t seem very helpful
+          and tended to confuse me more. Finally, throughout the whole process,
+          as I was working with a loop it was very easy to crash the browser if
+          I wrote the condition incorrectly, adding to the frustration.
+        </p>
+        <h4>Lessons learnt</h4>
+        <ul>
+          <li>
+            I learned that trial and error is a valid way to solve a problem.
+          </li>
+          <li>
+            I learned that breaking the problem down into parts can help me
+            focus on one piece at a time rather than letting the whole problem
+            overwhelm me.
+          </li>
+          <li>It’s better to ask for help sooner, rather than later.</li>
+          <li>
+            Chat GPT is useful and very powerful but can sometimes give too much
+            away in a learning environment unless given specific instruction.
+          </li>
+        </ul>
+        <h2>An elegant solution</h2>
+        <p>
+          In page scrolling on my personal blog. I wanted to have a basic
+          navigation bar where a link button called “BLOG” would scroll down to
+          the section of the page where I listed my blog links. I knew I had to
+          use an <code><a></a></code> tag for the link but wasn’t sure the best
+          way of linking within the same page.
+        </p>
+        <p>
+          I googled “In page linking HTML CSS” and read through a few examples.
+          It seemed using an ID for the section I wanted to navigate to would be
+          the best bet. I got it to work but it wasn’t perfect, it was snapping
+          to the very top of the screen and was too abrupt.
+        </p>
+        <p>
+          Instead of trying to get everything working at once I focused in on
+          creating some offset so that the section title wasn’t snapping to the
+          top of the page. Again I did some googling here and implemented my
+          findings by writing a css rule to add scroll-margin-top to the
+          section.
+        </p>
+        <p>
+          Once I got that working I googled smooth scrolling as I had a hunch
+          that was what I needed to use to stop it jumping so abruptly. I didn’t
+          know how to write the css rule however so needed some context and
+          examples before writing it into my css file.
+        </p>
+        <h4>Reflecting on the process</h4>
+        <p>
+          This felt much more empowering, I had a clear plan of what I wanted to
+          achieve and was able to break the problem down into steps to avoid
+          overwhelming myself. While I couldn’t exactly try random css rules to
+          see if they worked, I had a fair idea of what to google and knew what
+          I wanted to see as an outcome. I was glad I was able to achieve it on
+          my own without reaching out for external help via discord or chat gpt.
+        </p>
+        <h4>Lessons learnt</h4>
+        <p>
+          I learned how to link and scroll to different sections within a
+          webpage using html IDs and css rules for scroll-margin and smooth
+          scrolling. In terms of problem solving, I learned to trust my
+          intuition and give it a go.
+        </p>
+        <h2>Reflecting on different problem solving techniques</h2>
+        <h4>Pseudocode</h4>
+        <p>
+          I’ve gotten better at using this in the JavaScript cafe stretch
+          challenges. I’d say I’m about a 6 or 7/10 with confidence here. The
+          main thing holding me back is not knowing how to describe the steps to
+          achieve the desired outcome clearly enough.
+        </p>
+        <h4>Trying Something</h4>
+        <p>
+          I’m fairly confident with this too, maybe a 6 or 7/10 again. The main
+          issue holding me back here is the uncertainty of exactly where to
+          start worrying about failure and confusing myself.
+        </p>
+        <h4>Rubber Ducky Method</h4>
+        <p>
+          I’m a little unfamiliar with this method and haven’t used it much yet.
+        </p>
+        <h4>Reading error messages</h4>
+        <p>
+          I’m ok with reading error messages and can generally figure out where
+          it’s trying to point out an error, however, I often find the message
+          itself a bit confusing and sometimes not very helpful.
+        </p>
+        <h4>Console.log</h4>
+        <p>
+          I want to get better at console.logging. I’m still confused as to
+          where and when is the best time to console.log and what to ask it. I
+          used it a bit in the JS Olympics however, I need to practice this more
+          and implement it in the next challenges.
+        </p>
+        <h4>Googling</h4>
+        <p>
+          I’m confident with googling when I have a problem, however, sometimes
+          I don’t know the method or name of the thing I’m trying to ask for.
+        </p>
+        <h4>Asking peers for help</h4>
+        <p>
+          I’m confident asking peers for help and feel like I know how to ask
+          the right questions and how to link my code properly.
+        </p>
+        <h4>Asking Coaches for help</h4>
+        <p>
+          Again, same as above. I would add chat GPT in here too and say I’m
+          getting more confident in asking it to act as a tutor to help expand
+          and explain a problem for me without giving the answer away.
+        </p>
+        <h4>Improving my process with reflection</h4>
+        <p>
+          I think I could do better here, sometimes I find it hard to recall
+          what I did to get the result. I think I could try to review some of my
+          code and note down what I have learned to keep on top of this.
+        </p>
+        <h2>Reflecting on a time I was reluctant to ask for help</h2>
+        <p>
+          Often I’m reluctant to ask for help when I feel like the problem is
+          small enough that I should be able to solve it on my own. I think this
+          reluctance comes from a little bit of embarrassment and pride that I
+          should be better. I still think giving the problem a good honest crack
+          on my own is the first thing I should do, however, I need to realise
+          that it is ok to ask for help and not feel embarrassed even if it
+          seems like a small problem. Sometimes you just need a fresh set of
+          eyes on it!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
