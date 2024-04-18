@@ -201,12 +201,7 @@ p {
   justify-content: center;
 }
 
-@media only screen and (min-width: 700px) {
-  .blog-links-wrapper {
-    /* grid-template-columns: repeat(2, 1fr); */
-    /* grid-auto-rows: 1fr; */
-  }
-}
+/*  */
 
 @media only screen and (min-width: 800px) {
   p {
